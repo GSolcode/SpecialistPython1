@@ -16,7 +16,12 @@
 
 ```python
 text = "Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете."
-# TODO: you code here...
+text1 = text[0:21]
+text2 = text[22:78]
+text3 = text[80:94]
+text4 = text[95:]
+
+print(text1 + text2 + text3 + text4)
 ```
 
 ---
